@@ -37,3 +37,9 @@ class Soobin : public pekerja, public pelajar {
                 cout << "Soobin dibuat\n" << endl;
             }
 };
+
+int main () {
+    Soobin a(22);
+
+    return 0;
+}
