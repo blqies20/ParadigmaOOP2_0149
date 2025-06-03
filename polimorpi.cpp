@@ -20,3 +20,19 @@ class Yeji :public seseorang {
             cout << "Pesan dari Yeji" << endl;
         }
 };
+
+int main() {
+    seseorang *obyek;
+    Yeonjun a;
+    Yeji b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+
+    //a.seseorang::pesan();
+    //b.seseorang::pesan();
+
+    return 0;
+}
