@@ -1,19 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class seseorang
-{
-private:
-    /* data */
+class seseorang {
 public:
-    seseorang(/* args */);
-    ~seseorang();
+    //virtual void pesan() = 0;
+    virtual void pesan() {
+        cout << "Pesan dari Seseorang" << endl;
+    };
 };
-
-seseorang::seseorang(/* args */)
-{
-}
-
-seseorang::~seseorang()
-{
-}
